@@ -13,6 +13,3 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
 sed -i "s/hostname='OpenWrt'/hostname='Phicomm-K3'/g" package/base-files/files/bin/config_generate
-rm -f package/feeds/NueXini_Packages/luci-app-store
-rm -f package/feeds/NueXini_Packages/luci-app-mosdns2
-rm -f package/feeds/NueXini_Packages/luci-app-mosdns
