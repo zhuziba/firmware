@@ -19,3 +19,4 @@ sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES 
 #v2raya
 git clone https://github.com/v2rayA/v2raya-openwrt.git temp/v2raya-openwrt
 mv temp/v2raya-openwrt/luci-app-v2raya package/lean/luci-app-v2raya
+mv temp/v2raya-openwrt/v2raya package/lean/v2raya
