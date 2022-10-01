@@ -22,5 +22,5 @@ sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES 
 #mv temp/v2raya-openwrt/v2raya package/lean/v2raya
 
 #OpenClash
-git clone https://github.com/vernesong/OpenClash.git temp/OpenClash
+git clone -b v0.45.59-beta --depth=1 https://github.com/vernesong/OpenClash.git temp/OpenClash
 mv temp/OpenClash/luci-app-openclash package/lean/luci-app-openclash
