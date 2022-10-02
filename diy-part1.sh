@@ -16,3 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#无线
+sed -i "s/ssid=OpenWrt/ssid=DAMI/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
