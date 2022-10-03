@@ -19,5 +19,3 @@
 
 echo '添加rufengsuixing的adguardhome插件'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
-#无线
-sed -i "s/ssid=OpenWrt/ssid=DAMI/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
