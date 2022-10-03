@@ -19,3 +19,5 @@
 
 echo '添加rufengsuixing的adguardhome插件'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+echo '添加destan19的OpenAppFilter插件'
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
