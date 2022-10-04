@@ -21,3 +21,6 @@ echo '添加rufengsuixing的adguardhome插件'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 echo '添加destan19的OpenAppFilter插件'
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+echo '添加sbwml的mosdns插件'
+git clone https://github.com/sbwml/luci-app-mosdns.git package/mosdns
+git clone https://github.com/sbwml/v2ray-geodata.git package/geodata
