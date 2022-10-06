@@ -25,8 +25,6 @@ sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES 
 git clone -b v0.45.59-beta --depth=1 https://github.com/vernesong/OpenClash.git temp/OpenClash
 mv temp/OpenClash/luci-app-openclash package/lean/luci-app-openclash
 #smartdns
-git clone https://github.com/pymumu/openwrt-smartdns.git temp/smartdns
-mv temp/smartdns package/lean/smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/diy/smartdns
 #luci-app-smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git temp/luci-app-smartdns
-mv temp/luci-app-smartdns package/lean/luci-app-smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/diy/luci-app-smartdns
