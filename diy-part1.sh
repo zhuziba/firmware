@@ -24,5 +24,6 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 echo '添加kiddin9的dnsfilterr插件'
 git clone https://github.com/kiddin9/luci-app-dnsfilter package/lean/luci-app-dnsfilter 
 echo '添加sbwml的mosdns插件'
+rm -rf feeds/packages/net/mosdns
 git clone https://github.com/sbwml/luci-app-mosdns.git package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata.git package/geodata
