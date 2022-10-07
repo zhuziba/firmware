@@ -32,3 +32,4 @@ git clone https://github.com/chandelures/luci-app-simple-clash.git package/diy/l
 git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/diy/luci-app-dnsfilter 
 git clone https://github.com/destan19/OpenAppFilter.git package/diy/OpenAppFilter
 git clone https://github.com/QiuSimons/openwrt-mos.git package/diy/openwrt-mos
+rm -rf package/feeds/packages/mosdns
