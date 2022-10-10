@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build immortalwrt
 on:
   workflow_dispatch:
 # 定时触发编译
