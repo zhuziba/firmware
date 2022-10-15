@@ -25,8 +25,7 @@ sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=5.4/g" target/linux/bcm53xx/Make
 
 rm -rf package/feeds/packages/phicomm-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build.git package/feeds/packages/phicomm-k3screenctrl
-cat package/feeds/packages/phicomm-k3screenctrl
-/Makefile |grep DEPENDS
+cat package/feeds/packages/phicomm-k3screenctrl/Makefile |grep DEPENDS
 
 rm -rf package/feeds/luci/luci-app-k3screenctrl
 git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/feeds/luci/luci-app-k3screenctrl
