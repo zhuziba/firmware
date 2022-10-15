@@ -23,14 +23,5 @@ git clone https://github.com/QiuSimons/openwrt-mos.git package/diy/openwrt-mos
 #替换成5.4内核
 sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=5.4/g" target/linux/bcm53xx/Makefile
 
-rm -rf package/feeds/packages/phicomm-k3screenctrl
-git clone https://github.com/lwz322/k3screenctrl_build.git package/feeds/packages/phicomm-k3screenctrl
-cat package/feeds/packages/phicomm-k3screenctrl/Makefile |grep DEPENDS
-
-rm -rf package/feeds/luci/luci-app-k3screenctrl
-git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/feeds/luci/luci-app-k3screenctrl
-
-
-
 rm -rf ./package/firmware/brcmfmac4366c0-firmware-vendor/files/brcmfmac4366c-pcie.bin
 curl -L -H "Cache-Control: no-cache" -o ./package/firmware/brcmfmac4366c0-firmware-vendor/files/brcmfmac4366c-pcie.bin https://cdn.staticaly.com/gh/Hill-98/phicommk3-firmware/master/brcmfmac4366c-pcie.bin.69027
