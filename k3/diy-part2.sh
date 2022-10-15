@@ -21,6 +21,7 @@ git clone https://github.com/QiuSimons/openwrt-mos.git package/diy/openwrt-mos
 
 rm package/feeds/packages/phicomm-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build.git package/feeds/packages/phicomm-k3screenctrl
+cat package/feeds/packages/phicomm-k3screenctrl/Makefile |grep DEPENDS
 
 rm -rf package/feeds/luci/luci-app-k3screenctrl
 git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/feeds/luci/luci-app-k3screenctrl
