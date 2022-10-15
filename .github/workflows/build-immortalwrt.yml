@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: k3/feeds.conf.default
   CONFIG_FILE: k3/.config
   DIY_P1_SH: k3/diy-part1.sh
