@@ -18,3 +18,9 @@ rm -rf package/feeds/packages/mosdns
 git clone https://github.com/QiuSimons/openwrt-mos.git package/diy/openwrt-mos
 #git clone https://github.com/sbwml/luci-app-mosdns package/diy/mosdns
 #git clone https://github.com/sbwml/v2ray-geodata package/diy/geodata
+
+rm package/feeds/packages/phicomm-k3screenctrl
+git clone https://github.com/lwz322/k3screenctrl_build.git package/feeds/packages/phicomm-k3screenctrl
+
+rm -rf package/feeds/luci/luci-app-k3screenctrl
+git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/feeds/luci/luci-app-k3screenctrl
