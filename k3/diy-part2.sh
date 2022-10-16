@@ -27,4 +27,4 @@ sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=5.4/g" target/linux/bcm53xx/Make
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 rm -rf package/diy/luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
 sed -i "s#/etc/AdGuardHome.yaml#/etc/config/AdGuardHome.yaml#" package/diy/luci-app-adguardhome/root/etc/config/AdGuardHome
-echo 'https://download.fastgit.org/AdguardTeam/AdGuardHome/releases/latest/download/AdGuardHome_linux_armv5.tar.gz>>package/diy/luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
+echo 'https://download.fastgit.org/AdguardTeam/AdGuardHome/releases/latest/download/AdGuardHome_linux_armv5.tar.gz'>>package/diy/luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
