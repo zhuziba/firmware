@@ -21,10 +21,12 @@ sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES 
 #git clone https://github.com/sbwml/v2ray-geodata package/diy/geodata
 
 #内核版本大于5.4.156以上的K3的Op无法运行k3screenctrl
-#替换成5.4内核
-sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=5.4/g" target/linux/bcm53xx/Makefile
+#sed -i "s/KERNEL_PATCHVER:=*.*/KERNEL_PATCHVER:=5.4/g" target/linux/bcm53xx/Makefile
 
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/diy/luci-app-adguardhome
 rm -rf package/diy/luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
 sed -i "s#/etc/AdGuardHome.yaml#/etc/config/AdGuardHome.yaml#" package/diy/luci-app-adguardhome/root/etc/config/AdGuardHome
 echo 'https://download.fastgit.org/AdguardTeam/AdGuardHome/releases/latest/download/AdGuardHome_linux_armv5.tar.gz'>>package/diy/luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
+
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav package/diy/luci-app-aliyundrive-webdav
+svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav package/diy/aliyundrive-webdav
