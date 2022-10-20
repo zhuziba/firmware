@@ -31,3 +31,4 @@ sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES 
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav package/diy/luci-app-aliyundrive-webdav
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav package/diy/aliyundrive-webdav
 svn co https://github.com/kiddin9/openwrt-adguardhome/trunk/luci-app-adguardhome package/diy/luci-app-adguardhome
+svn co https://github.com/kiddin9/openwrt-bypass/trunk/luci-app-bypass package/diy/luci-app-bypass
