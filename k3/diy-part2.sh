@@ -24,6 +24,9 @@ sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES 
 #echo 'https://download.fastgit.org/AdguardTeam/AdGuardHome/releases/latest/download/AdGuardHome_linux_armv5.tar.gz'>>package/diy/luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
 
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav package/diy/luci-app-aliyundrive-webdav
+svn co https://github.com/messense/aliyundrive-fuse/trunk/openwrt/luci-app-aliyundrive-fuse package/diy/luci-app-aliyundrive-fuse
 svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav package/diy/aliyundrive-webdav
+svn co https://github.com/messense/aliyundrive-fuse/trunk/openwrt/aliyundrive-fuse package/diy//aliyundrive-fuse
+
 svn co https://github.com/kiddin9/openwrt-adguardhome/trunk/luci-app-adguardhome package/diy/luci-app-adguardhome
 svn co https://github.com/kiddin9/openwrt-bypass/trunk/luci-app-bypass package/diy/luci-app-bypass
