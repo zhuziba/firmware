@@ -30,3 +30,5 @@ svn co https://github.com/messense/aliyundrive-fuse/trunk/openwrt/aliyundrive-fu
 
 svn co https://github.com/kiddin9/openwrt-adguardhome/trunk/luci-app-adguardhome package/diy/luci-app-adguardhome
 svn co https://github.com/kiddin9/openwrt-bypass/trunk/luci-app-bypass package/diy/luci-app-bypass
+
+svn co https://github.com/sbwml/luci-app-mosdns/trunk/luci-app-mosdns package/diy/luci-app-mosdns
