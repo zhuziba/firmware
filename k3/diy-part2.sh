@@ -32,5 +32,5 @@ svn co https://github.com/kiddin9/openwrt-bypass/trunk/luci-app-bypass package/d
 
 svn co https://github.com/QiuSimons/openwrt-mos/trunk/luci-app-mosdns package/diy/luci-app-mosdns
 #修改adguardhome版本
-sed -i 's/PKG_VERSION:=0.107.6/PKG_VERSION:=0.107.17/g' feeds/packages/net/adguardhome/Makefile
-sed -i 's/c41f8e9b9495b1684adcd1a9c0fe7af4a3ec225b19ced46fce477c4fb0db1ed4/skip/g' feeds/packages/net/adguardhome/Makefile
+sed -i 's/PKG_VERSION:=0.107.6/PKG_VERSION:=0.107.17/g' package/feeds/packages/net/adguardhome/Makefile
+sed -i 's/c41f8e9b9495b1684adcd1a9c0fe7af4a3ec225b19ced46fce477c4fb0db1ed4/skip/g' package/feeds/packages/net/adguardhome/Makefile
