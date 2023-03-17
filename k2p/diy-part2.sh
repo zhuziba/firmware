@@ -13,3 +13,5 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
 sed -i "s/hostname='OpenWrt'/hostname='Phicomm-K2p'/g" package/base-files/files/bin/config_generate
+#插件
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/diy/luci-app-openclash
